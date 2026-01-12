@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilana Ichie Cosmetics - קוסמטיקה מקצועית ומקיפה</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Heebo:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* סגנונות נוספים ללוגו */
+        .logo-img, .hero-logo-img, .footer-logo-img {
+            object-fit: contain;
+            background: transparent;
+        }
+        
+        .logo-container {
+            width: 180px;
+            height: 60px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .hero-brand {
+            width: 300px;
+            height: 100px;
+            margin: 20px auto;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .footer-logo {
+            width: 200px;
+            height: 70px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .footer-logo img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .logo-container {
+                width: 150px;
+                height: 50px;
+            }
+            
+            .hero-brand {
+                width: 250px;
+                height: 80px;
+            }
+            
+            .footer-logo {
+                width: 180px;
+                height: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/972523549007?text=שלום%20אילנה,%20אשמח%20לתאם%20תור%20לטיפול" 
+       class="whatsapp-float" 
+       target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <!-- לוגו בלבד -->
+                <img src="https://i.ibb.co/VcCt10kR/AIEnhancer.png" 
+                     alt="Ilana Ichie Cosmetics - קוסמטיקה מקצועית" 
+                     class="logo-img"
+                     style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> בית</a></li>
+                    <li><a href="#services"><i class="fas fa-spa"></i> שירותים</a></li>
+                    <li><a href="#gallery"><i class="fas fa-images"></i> גלריה</a></li>
+                    <li><a href="#contact"><i class="fas fa-phone"></i> צור קשר</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-tagline">יופי בטבעיות • מקצועיות באהבה</div>
+                <h1>ברוכה הבאה לעולם היופי של</h1>
+                
+                <!-- לוגו בלבד במרכז -->
+                <div class="hero-brand">
+                    <img src="https://i.ibb.co/VcCt10kR/AIEnhancer.png" 
+                         alt="Ilana Ichie Cosmetics - קוסמטיקה מקצועית" 
+                         class="hero-logo-img"
+                         style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+                </div>
+                
+                <p>מומחית בקוסמטיקה מתקדמת עם מגוון רחב של טיפולים מקצועיים. כל שירות מתבצע בדיוק, באסתטיקה ובאווירה אינטימית ומפנקת.</p>
+                
+                <div class="hero-buttons">
+                    <a href="https://wa.me/972523549007?text=שלום%20אילנה,%20אשמח%20לתאם%20תור%20לטיפול" 
+                       class="whatsapp-button" 
+                       target="_blank">
+                        <i class="fab fa-whatsapp"></i> שלחי הודעה בווצאפ
+                    </a>
+                    <a href="#contact" class="btn">
+                        <i class="fas fa-gift"></i> קבלי ייעוץ חינם
+                    </a>
+                </div>
+                
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-award"></i>
+                        <span>מקצועיות ללא פשרות</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-star"></i>
+                        <span>חומרים באיכות גבוהה</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-heart"></i>
+                        <span>יחס אישי ומסור</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-content">
+                    <i class="fas fa-spa"></i>
+                    <h3>גלריה מקצועית</h3>
+                    <p>137 תמונות באיכות גבוהה</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Sections -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>השירותים שלנו</h2>
+                <p style="color: #666; margin-top: 15px; font-size: 1.1rem;">מגוון רחב של טיפולים אסתטיים מקצועיים</p>
+            </div>
+
+            <!-- ציפורניים -->
+            <div class="service-category">
+                <div class="category-title">
+                    <i class="fas fa-hand-sparkles"></i>
+                    <h3>ציפורניים</h3>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-plus-circle"></i></div>
+                        <h4>בנייה חדשה</h4>
+                        <p>בניית ציפורניים מקצועית עם חומרים איכותיים</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-ruler-vertical"></i></div>
+                        <h4>מבנה אנטומי ארוך</h4>
+                        <p>עיצוב אנטומי מושלם לציפורניים ארוכות</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-ruler"></i></div>
+                        <h4>מבנה אנטומי קצר</h4>
+                        <p>עיצוב עדין ומקצועי לציפורניים קצרות</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h4>לק ג'ל חיזוק</h4>
+                        <p>חיזוק ציפורניים טבעיות עם לק ג'ל איכותי</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-eye"></i></div>
+                        <h4>מילוי ריסים חוץ</h4>
+                        <p>מילוי והשלמת ריסים מלאכותיים</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-tools"></i></div>
+                        <h4>תיקון ציפורן שבורה</h4>
+                        <p>תיקון מקצועי לציפורניים שבורות</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-gem"></i></div>
+                        <h4>קישוטים ועיטורים</h4>
+                        <p>הדבקות, ציורים ועיטורים מיוחדים</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- פנים -->
+            <div class="service-category">
+                <div class="category-title">
+                    <i class="fas fa-smile"></i>
+                    <h3>פנים</h3>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-eye-brow"></i></div>
+                        <h4>עיצוב גבות ושפם</h4>
+                        <p>עיצוב גבות טבעיות כולל שפם</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-eye-brow"></i></div>
+                        <h4>עיצוב גבות טבעיות</h4>
+                        <p>עיצוב מקצועי לגבות טבעיות</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                        <h4>צביעת גבות</h4>
+                        <p>צביעת גבות בצבע מתאים ואיכותי</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- פדיקור -->
+            <div class="service-category">
+                <div class="category-title">
+                    <i class="fas fa-foot"></i>
+                    <h3>פדיקור</h3>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-medkit"></i></div>
+                        <h4>פדיקור פרא רפואי</h4>
+                        <p>כולל לק ג'ל, טיפול מקצועי לבעיות רפואיות</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-spa"></i></div>
+                        <h4>מיני פדיקור קוסמטי</h4>
+                        <p>כולל לק ג'ל, טיפול אסתטי מקוצר</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-cut"></i></div>
+                        <h4>סידור ציפורניים</h4>
+                        <p>סידור ציפורניים בלבד כולל לק ג'ל</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ריסים וגבות -->
+            <div class="service-category">
+                <div class="category-title">
+                    <i class="fas fa-eye"></i>
+                    <h3>ריסים וגבות</h3>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-eye-lash"></i></div>
+                        <h4>שזירת ריסים סט מלא</h4>
+                        <p>שזירה מקצועית של ריסים מלאים</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-arrow-up"></i></div>
+                        <h4>הרמת ריסים וגבות</h4>
+                        <p>הרמה מקצועית לריסים וגבות</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- איפור קבוע -->
+            <div class="service-category">
+                <div class="category-title">
+                    <i class="fas fa-palette"></i>
+                    <h3>איפור קבוע</h3>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-brush"></i></div>
+                        <h4>איפור קבוע בפודרה</h4>
+                        <p>איפור קבוע בשיטת הפודרה המתקדמת</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+                        <h4>מיקרובליידינג</h4>
+                        <p>שיטת מיקרובליידינג מקצועית</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-eraser"></i></div>
+                        <h4>הסרת איפור קבוע</h4>
+                        <p>הסרה מקצועית של איפור קבוע</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- טיפולים משלימים -->
+            <div class="service-category">
+                <div class="category-title">
+                    <i class="fas fa-hands"></i>
+                    <h3>טיפולים משלימים</h3>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-hand-holding-water"></i></div>
+                        <h4>טיפול ספא ידיים</h4>
+                        <p>טיפול ספא מפנק לידיים - 50 דקות</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-walking"></i></div>
+                        <h4>טיפול ספא רגליים</h4>
+                        <p>טיפול ספא מפנק לרגליים - 50 דקות</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-fire"></i></div>
+                        <h4>כוסות רוח</h4>
+                        <p>טיפול כוסות רוח מקצועי - 50 דקות</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section עם כל 137 התמונות -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>גלריה</h2>
+                <p style="color: #666; margin-top: 15px; font-size: 1.1rem;">137 תמונות מקצועיות באיכות גבוהה</p>
+            </div>
+            
+            <div class="gallery-preview" id="galleryPreview">
+                <div class="gallery-preview-content">
+                    <i class="fas fa-images"></i>
+                    <h3>גלריה מקצועית</h3>
+                    <p>צפה ב-137 תמונות מקצועיות באיכות גבוהה. לחץ על הכפתור להצגת הגלריה המלאה.</p>
+                    <button class="show-gallery-btn" onclick="showGallery()">
+                        <i class="fas fa-eye"></i> צפה בגלריה המלאה (137 תמונות)
+                    </button>
+                    <p style="margin-top: 15px; font-size: 0.9rem; color: #888;">
+                        <i class="fas fa-mouse-pointer"></i> לחץ על כל תמונה להגדלה
+                    </p>
+                </div>
+            </div>
+            
+            <div class="gallery-grid" id="fullGallery">
+                <!-- כל 137 התמונות -->
+                <!-- 53 התמונות המקוריות -->
+                <div class="gallery-item"><img src="https://i.ibb.co/2ff8sFq/Whats-App-Image-2026-01-11-at-18-49-33-1.jpg" alt="עבודות ציפורניים מקצועיות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/xtNM2dSB/Whats-App-Image-2026-01-11-at-18-49-33-2.jpg" alt="עיצוב ציפורניים אסתטי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/5X0m8SWW/Whats-App-Image-2026-01-11-at-18-49-33.jpg" alt="טיפולי קוסמטיקה מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/qYq9XSHr/Whats-App-Image-2026-01-11-at-18-49-34.jpg" alt="לק ג'ל איכותי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/TBR3m4L3/Whats-App-Image-2026-01-11-at-18-49-36-1.jpg" alt="עבודות ציפורניים מעוצבות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/5xRNn2LB/Whats-App-Image-2026-01-11-at-18-49-36.jpg" alt="קישוטי ציפורניים ייחודיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/1JBZ04qc/Whats-App-Image-2026-01-11-at-18-49-37-1.jpg" alt="טיפולי ספא לידיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/7xmW22xV/Whats-App-Image-2026-01-11-at-18-49-37-2.jpg" alt="פדיקור מקצועי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/8Ld7qyPm/Whats-App-Image-2026-01-11-at-18-49-37-3.jpg" alt="עיצוב ציפורניים בקריסטלים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/jZLZxP29/Whats-App-Image-2026-01-11-at-18-49-37.jpg" alt="טיפולי יופי מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/FqB0MmmF/Whats-App-Image-2026-01-11-at-18-49-38.jpg" alt="ציפורניים מעוצבות בצבעים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/2YhkRXT9/Whats-App-Image-2026-01-11-at-18-49-50-1.jpg" alt="עבודות נגל ארט" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/qY92ntPN/Whats-App-Image-2026-01-11-at-18-49-50-2.jpg" alt="טיפולי קוסמטיקה מתקדמים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/TB0PPVMx/Whats-App-Image-2026-01-11-at-18-49-50.jpg" alt="עיצוב ציפורניים בקיץ" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/8LXLKpSm/Whats-App-Image-2026-01-11-at-18-49-51-1.jpg" alt="טיפולי ציפורניים חורף" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/5gK0W5xF/Whats-App-Image-2026-01-11-at-18-49-51-2.jpg" alt="קישוטי ציפורניים זהב" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Fkts4bQg/Whats-App-Image-2026-01-11-at-18-49-51.jpg" alt="עבודות מקצועיות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/1fGHxq37/Whats-App-Image-2026-01-11-at-18-49-52-1.jpg" alt="טיפולי אסתטיקה" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/qLGp8Fdr/Whats-App-Image-2026-01-11-at-18-49-52-2.jpg" alt="ציפורניים מעוצבות בקלאסיקה" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/rfc9BPyx/Whats-App-Image-2026-01-11-at-18-49-52.jpg" alt="עיצוב מודרני" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Q3M178cz/Whats-App-Image-2026-01-11-at-18-49-53-1.jpg" alt="טיפולי ציפורניים מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/KjBL9gqb/Whats-App-Image-2026-01-11-at-18-49-53.jpg" alt="עבודות נגל ארט מורכבות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/SDVqN1xb/Whats-App-Image-2026-01-11-at-18-49-54-1.jpg" alt="ציפורניים עם אבנים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/BVKX2D5y/Whats-App-Image-2026-01-11-at-18-49-54-2.jpg" alt="טיפולי יופי איכותיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/93csRQ8j/Whats-App-Image-2026-01-11-at-18-49-54-3.jpg" alt="עיצוב ציפורניים מעודן" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/JR6GwbJT/Whats-App-Image-2026-01-11-at-18-49-54.jpg" alt="טיפולי קוסמטיקה מפנקים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Hptg5pGS/Whats-App-Image-2026-01-11-at-18-49-55-1.jpg" alt="עבודות ציפורניים באביב" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/N6whr91G/Whats-App-Image-2026-01-11-at-18-49-55-2.jpg" alt="ציפורניים עם פרחים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/WpfqZ6hr/Whats-App-Image-2026-01-11-at-18-49-55.jpg" alt="טיפולי אסתטיקה יוקרתיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/PvK566H1/Whats-App-Image-2026-01-11-at-18-49-56-1.jpg" alt="עיצוב ציפורניים בצבעים עזים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/9kkBYvFQ/Whats-App-Image-2026-01-11-at-18-49-56.jpg" alt="טיפולי ציפורניים מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/mrJVxD97/Whats-App-Image-2026-01-11-at-18-49-57.jpg" alt="עבודות נגל ארט מדהימות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/XrxgXcKj/Whats-App-Image-2026-01-11-at-18-49-58-1.jpg" alt="ציפורניים מעוצבות בסגנון" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/7xFkVGTL/Whats-App-Image-2026-01-11-at-18-49-58.jpg" alt="טיפולי קוסמטיקה איכותיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/G4ZD6Wsm/Whats-App-Image-2026-01-11-at-18-49-59-1.jpg" alt="עיצוב ציפורניים יוקרתי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/67bqHNpT/Whats-App-Image-2026-01-11-at-18-49-59-2.jpg" alt="טיפולי ציפורניים מעולים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/1GNgJbwd/Whats-App-Image-2026-01-11-at-18-49-59.jpg" alt="עבודות מקצועיות בציפורניים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/kjR0m9v/Whats-App-Image-2026-01-11-at-18-50-00-1.jpg" alt="ציפורניים עם קישוטים מיוחדים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/TqT88pL9/Whats-App-Image-2026-01-11-at-18-50-00.jpg" alt="טיפולי אסתטיקה מדויקים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/4RvLT3w7/Whats-App-Image-2026-01-11-at-18-50-01-1.jpg" alt="עיצוב ציפורניים עדין" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/60xf6yLS/Whats-App-Image-2026-01-11-at-18-50-01-2.jpg" alt="טיפולי קוסמטיקה מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/6cZt59kv/Whats-App-Image-2026-01-11-at-18-50-01.jpg" alt="ציפורניים מעוצבות בסגנון מודרני" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/PGRzPPr2/Whats-App-Image-2026-01-11-at-18-50-02-1.jpg" alt="עבודות ציפורניים איכותיות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/rGGswm84/Whats-App-Image-2026-01-11-at-18-50-02.jpg" alt="טיפולי ציפורניים מדויקים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/mFFmd465/Whats-App-Image-2026-01-11-at-18-50-03-1.jpg" alt="עיצוב ציפורניים בקלאסיקה" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/jPm3SmGY/Whats-App-Image-2026-01-11-at-18-50-03-2.jpg" alt="טיפולי קוסמטיקה מפנקים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/F4DPhzg5/Whats-App-Image-2026-01-11-at-18-50-03.jpg" alt="ציפורניים עם עיצובים מיוחדים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/pjxxpvNk/Whats-App-Image-2026-01-11-at-18-50-04-1.jpg" alt="עבודות נגל ארט מדהימות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/7tjkQTzW/Whats-App-Image-2026-01-11-at-18-50-04.jpg" alt="טיפולי ציפורניים מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/TM4F43nd/Whats-App-Image-2026-01-11-at-18-50-05-1.jpg" alt="עיצוב ציפורניים בצבעים עדינים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/6RKJNTcC/Whats-App-Image-2026-01-11-at-18-50-05-2.jpg" alt="טיפולי קוסמטיקה איכותיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/dwNN2zq2/Whats-App-Image-2026-01-11-at-18-50-05.jpg" alt="ציפורניים מעוצבות בקיץ" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/HfX10Pdj/Whats-App-Image-2026-01-11-at-18-50-06-1.jpg" alt="עבודות ציפורניים מקצועיות אחרונות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/TDX8zSzK/Whats-App-Image-2026-01-11-at-18-50-06-2.jpg" alt="עבודות ציפורניים אחרונות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/pvtj3zxq/Whats-App-Image-2026-01-11-at-18-50-06.jpg" alt="עבודות קוסמטיקה מקצועיות" loading="lazy"></div>
+                
+                <!-- 84 התמונות החדשות -->
+                <div class="gallery-item"><img src="https://i.ibb.co/WNwj0Qs5/Whats-App-Image-2026-01-11-at-22-12-36.jpg" alt="עבודות ציפורניים מעוצבות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/KpbLw71B/Whats-App-Image-2026-01-11-at-22-12-40-1.jpg" alt="עיצוב ציפורניים מקצועי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/d4C3GG5P/Whats-App-Image-2026-01-11-at-22-12-40.jpg" alt="טיפולי ציפורניים איכותיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/gMFDr2Y7/Whats-App-Image-2026-01-11-at-22-12-45.jpg" alt="עבודות נגל ארט מיוחדות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/6cXZcswm/Whats-App-Image-2026-01-11-at-22-12-46-1.jpg" alt="קישוטי ציפורניים מעוצבים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/pBWxJD6d/Whats-App-Image-2026-01-11-at-22-12-46-2.jpg" alt="ציפורניים עם עיצובים מיוחדים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/4gCxpMK7/Whats-App-Image-2026-01-11-at-22-12-46.jpg" alt="עבודות ציפורניים מקצועיות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/m3xGVP8/Whats-App-Image-2026-01-11-at-22-12-47.jpg" alt="טיפולי קוסמטיקה מתקדמים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/cKjTmDrt/Whats-App-Image-2026-01-11-at-22-12-49.jpg" alt="עיצוב ציפורניים באביב" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/21SHH6n5/Whats-App-Image-2026-01-11-at-22-12-50-1.jpg" alt="ציפורניים עם פרחים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/SX4bZJ8h/Whats-App-Image-2026-01-11-at-22-12-50.jpg" alt="טיפולי אסתטיקה יוקרתיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/zWhJ1ZNR/Whats-App-Image-2026-01-11-at-22-12-55-1.jpg" alt="עיצוב ציפורניים בצבעים עזים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/bMVK9K1y/Whats-App-Image-2026-01-11-at-22-12-55.jpg" alt="טיפולי ציפורניים מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/w57WzWP/Whats-App-Image-2026-01-11-at-22-12-56-1.jpg" alt="עבודות נגל ארט מדהימות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/mCnpV2cw/Whats-App-Image-2026-01-11-at-22-12-56-2.jpg" alt="ציפורניים מעוצבות בסגנון" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/CptKLNkQ/Whats-App-Image-2026-01-11-at-22-12-56.jpg" alt="טיפולי קוסמטיקה איכותיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/xKWyrvGz/Whats-App-Image-2026-01-11-at-22-12-57-1.jpg" alt="עיצוב ציפורניים יוקרתי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/LBLdc44/Whats-App-Image-2026-01-11-at-22-12-57-2.jpg" alt="טיפולי ציפורניים מעולים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/tpgVqDnD/Whats-App-Image-2026-01-11-at-22-12-57.jpg" alt="עבודות מקצועיות בציפורניים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Y4Kq4CmX/Whats-App-Image-2026-01-11-at-22-12-58-1.jpg" alt="ציפורניים עם קישוטים מיוחדים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Hf8Vf7Yp/Whats-App-Image-2026-01-11-at-22-12-58-2.jpg" alt="טיפולי אסתטיקה מדויקים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/v6NB0pxw/Whats-App-Image-2026-01-11-at-22-12-58.jpg" alt="עיצוב ציפורניים עדין" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/fdHpm5Hx/Whats-App-Image-2026-01-11-at-22-12-59-1.jpg" alt="טיפולי קוסמטיקה מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/ZRCSptsc/Whats-App-Image-2026-01-11-at-22-12-59-2.jpg" alt="ציפורניים מעוצבות בסגנון מודרני" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/0pvP9xsX/Whats-App-Image-2026-01-11-at-22-12-59.jpg" alt="עבודות ציפורניים איכותיות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/XZDGSh5r/Whats-App-Image-2026-01-11-at-22-13-00-1.jpg" alt="טיפולי ציפורניים מדויקים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/W992tYS/Whats-App-Image-2026-01-11-at-22-13-00-2.jpg" alt="עיצוב ציפורניים בקלאסיקה" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Lz83KfyN/Whats-App-Image-2026-01-11-at-22-13-00.jpg" alt="טיפולי קוסמטיקה מפנקים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/TnYKq22/Whats-App-Image-2026-01-11-at-22-13-01-1.jpg" alt="ציפורניים עם עיצובים מיוחדים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/wNCHjcY3/Whats-App-Image-2026-01-11-at-22-13-01.jpg" alt="עבודות נגל ארט מדהימות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Lq6TKrV/Whats-App-Image-2026-01-11-at-22-13-02-1.jpg" alt="טיפולי ציפורניים מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/HLVhsDNP/Whats-App-Image-2026-01-11-at-22-13-02-2.jpg" alt="עיצוב ציפורניים בצבעים עדינים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Y7t63GY1/Whats-App-Image-2026-01-11-at-22-13-02.jpg" alt="טיפולי קוסמטיקה איכותיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/pv2Psb5W/Whats-App-Image-2026-01-11-at-22-13-03-1.jpg" alt="ציפורניים מעוצבות בקיץ" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/4nxBCVYJ/Whats-App-Image-2026-01-11-at-22-13-03-2.jpg" alt="עבודות ציפורניים מקצועיות אחרונות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/N2WR4nJz/Whats-App-Image-2026-01-11-at-22-13-03.jpg" alt="עבודות ציפורניים אחרונות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/S7GD6wpm/Whats-App-Image-2026-01-11-at-22-13-04-1.jpg" alt="עבודות קוסמטיקה מקצועיות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/VpzT13NL/Whats-App-Image-2026-01-11-at-22-13-04.jpg" alt="טיפולי ציפורניים מתקדמים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/bMqXcMzb/Whats-App-Image-2026-01-11-at-22-13-05-1.jpg" alt="עיצוב ציפורניים מקצועי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/4ZFvm9x7/Whats-App-Image-2026-01-11-at-22-13-05-2.jpg" alt="עבודות ציפורניים איכותיות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/60b3Qn2j/Whats-App-Image-2026-01-11-at-22-13-05.jpg" alt="טיפולי ציפורניים מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/PsP6FDK3/Whats-App-Image-2026-01-11-at-22-13-18.jpg" alt="עיצוב ציפורניים אסתטי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/RpypyHY0/Whats-App-Image-2026-01-11-at-22-13-19.jpg" alt="לק ג'ל איכותי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Cd2tN1z/Whats-App-Image-2026-01-11-at-22-13-20-1.jpg" alt="עבודות ציפורניים מעוצבות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/PZsZjgQ8/Whats-App-Image-2026-01-11-at-22-13-20.jpg" alt="קישוטי ציפורניים ייחודיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/gLV8qzZ8/Whats-App-Image-2026-01-11-at-22-13-21.jpg" alt="טיפולי ספא לידיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/609PMhRc/Whats-App-Image-2026-01-11-at-22-13-22-1.jpg" alt="פדיקור מקצועי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/VWbjxDf5/Whats-App-Image-2026-01-11-at-22-13-22-2.jpg" alt="עיצוב ציפורניים בקריסטלים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/SwYYbFLm/Whats-App-Image-2026-01-11-at-22-13-22.jpg" alt="טיפולי יופי מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/pBmn7WRN/Whats-App-Image-2026-01-11-at-22-13-23.jpg" alt="ציפורניים מעוצבות בצבעים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/4ZghC71h/Whats-App-Image-2026-01-11-at-22-13-24-1.jpg" alt="עבודות נגל ארט" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/mF9yY7j9/Whats-App-Image-2026-01-11-at-22-13-24-2.jpg" alt="טיפולי קוסמטיקה מתקדמים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/j9T63Krj/Whats-App-Image-2026-01-11-at-22-13-24.jpg" alt="עיצוב ציפורניים בקיץ" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/B5z91tT6/Whats-App-Image-2026-01-11-at-22-13-25-1.jpg" alt="טיפולי ציפורניים חורף" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/svBK2333/Whats-App-Image-2026-01-11-at-22-13-25-2.jpg" alt="קישוטי ציפורניים זהב" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/7t4WYFfp/Whats-App-Image-2026-01-11-at-22-13-25.jpg" alt="עבודות מקצועיות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/G4cNjfZy/Whats-App-Image-2026-01-11-at-22-13-26-1.jpg" alt="טיפולי אסתטיקה" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/5gBy43mg/Whats-App-Image-2026-01-11-at-22-13-26.jpg" alt="ציפורניים מעוצבות בקלאסיקה" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/r2Hbbw6Y/Whats-App-Image-2026-01-11-at-22-13-27-1.jpg" alt="עיצוב מודרני" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Zzw9R655/Whats-App-Image-2026-01-11-at-22-13-27-2.jpg" alt="טיפולי ציפורניים מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/twtsCfFS/Whats-App-Image-2026-01-11-at-22-13-28-1.jpg" alt="עבודות נגל ארט מורכבות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/0RPCSv9n/Whats-App-Image-2026-01-11-at-22-13-28-2.jpg" alt="ציפורניים עם אבנים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/pvYNzY1r/Whats-App-Image-2026-01-11-at-22-13-28.jpg" alt="טיפולי יופי איכותיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/XxLzy98T/Whats-App-Image-2026-01-11-at-22-13-29-1.jpg" alt="עיצוב ציפורניים מעודן" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/DP8tq99X/Whats-App-Image-2026-01-11-at-22-13-29.jpg" alt="טיפולי קוסמטיקה מפנקים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/cSFQJmZ3/Whats-App-Image-2026-01-11-at-22-13-30-1.jpg" alt="עבודות ציפורניים באביב" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/7JT8PnFg/Whats-App-Image-2026-01-11-at-22-13-30.jpg" alt="ציפורניים עם פרחים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/v6qQztSv/Whats-App-Image-2026-01-11-at-22-13-31-1.jpg" alt="טיפולי אסתטיקה יוקרתיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/bjxHNLg1/Whats-App-Image-2026-01-11-at-22-13-31.jpg" alt="עיצוב ציפורניים בצבעים עזים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/jvfg7N3y/Whats-App-Image-2026-01-11-at-22-13-32-1.jpg" alt="טיפולי ציפורניים מקצועיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/gMbYJr7y/Whats-App-Image-2026-01-11-at-22-13-32-2.jpg" alt="עבודות נגל ארט מדהימות" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/ZRM7Xbht/Whats-App-Image-2026-01-11-at-22-13-32.jpg" alt="ציפורניים מעוצבות בסגנון" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/d4K35mQV/Whats-App-Image-2026-01-11-at-22-13-33-1.jpg" alt="טיפולי קוסמטיקה איכותיים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/pvm0q7hq/Whats-App-Image-2026-01-11-at-22-13-33.jpg" alt="עיצוב ציפורניים יוקרתי" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/20XS4znz/Whats-App-Image-2026-01-11-at-22-13-34-1.jpg" alt="טיפולי ציפורניים מעולים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/FLH3kLgm/Whats-App-Image-2026-01-11-at-22-13-34-2.jpg" alt="עבודות מקצועיות בציפורניים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/XrDsmvN3/Whats-App-Image-2026-01-11-at-22-13-34.jpg" alt="ציפורניים עם קישוטים מיוחדים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/Rkk5VYVm/Whats-App-Image-2026-01-11-at-22-13-36-1.jpg" alt="טיפולי אסתטיקה מדויקים" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://i.ibb.co/qqKmh7g/Whats-App-Image-2026-01-11-at-22-13-36.jpg" alt="עיצוב ציפורניים עדין" loading="lazy"></div>
+            </div>
+            
+            <div class="gallery-counter" id="galleryCounter">
+                <p><i class="fas fa-images"></i> 137 תמונות מקצועיות | עבודות נבחרות מהקליניקה</p>
+                <p style="margin-top: 10px; font-size: 0.9rem; color: #888;">
+                    <i class="fas fa-mouse-pointer"></i> לחץ על כל תמונה להצגה באיכות גבוהה
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>צור קשר</h2>
+                <p style="color: #666; margin-top: 15px; font-size: 1.1rem;">אשמח לעמוד לרשותך לכל שאלה או לתיאום תור</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>פרטי התקשרות</h3>
+                    <div class="contact-detail">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>טלפון</h4>
+                            <p><a href="tel:0523549007" style="color: var(--accent); text-decoration: none;">052-3549007</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>ווצאפ</h4>
+                            <p>
+                                <a href="https://wa.me/972523549007?text=שלום%20אילנה,%20אשמח%20לתאם%20תור%20לטיפול" 
+                                   style="color: var(--whatsapp); text-decoration: none; font-weight: 500;">
+                                   שלחי הודעה כאן
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>כתובת</h4>
+                            <p>הרצל 78, קרית אתא</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://wa.me/972523549007?text=שלום%20אילנה,%20אשמח%20לתאם%20תור%20לטיפול" 
+                           target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <h3>שלחי הודעה</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="שם מלא" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="טלפון" required>
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option value="">בחרי סוג טיפול</option>
+                            <option value="nails">ציפורניים</option>
+                            <option value="face">פנים</option>
+                            <option value="pedicure">פדיקור</option>
+                            <option value="eyelashes">ריסים וגבות</option>
+                            <option value="permanent">איפור קבוע</option>
+                            <option value="complementary">טיפולים משלימים</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="הודעה" rows="4"></textarea>
+                    </div>
+                    <button type="submit">
+                        <i class="fas fa-paper-plane"></i> שלחי פנייה
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <!-- לוגו בלבד בפוטר -->
+                    <img src="https://i.ibb.co/VcCt10kR/AIEnhancer.png" 
+                         alt="Ilana Ichie Cosmetics - קוסמטיקה מקצועית" 
+                         class="footer-logo-img"
+                         style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+                    <p style="color: #ddd; margin-top: 20px; max-width: 300px;">יופי בטבעיות, מקצועיות באהבה. קוסמטיקה מקצועית במגוון רחב של טיפולים.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>שירותים</h4>
+                        <ul>
+                            <li><a href="#services">ציפורניים</a></li>
+                            <li><a href="#services">פנים</a></li>
+                            <li><a href="#services">פדיקור</a></li>
+                            <li><a href="#services">ריסים וגבות</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>ניווט</h4>
+                        <ul>
+                            <li><a href="#home">בית</a></li>
+                            <li><a href="#services">שירותים</a></li>
+                            <li><a href="#gallery">גלריה</a></li>
+                            <li><a href="#contact">צור קשר</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>יצירת קשר</h4>
+                        <ul>
+                            <li><a href="tel:0523549007" style="color: #ddd;">052-3549007</a></li>
+                            <li>
+                                <a href="https://wa.me/972523549007?text=שלום%20אילנה,%20אשמח%20לתאם%20תור%20לטיפול" 
+                                   style="color: #ddd;">
+                                   ווצאפ
+                                </a>
+                            </li>
+                            <li>הרצל 78, קרית אתא</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2023 Ilana Ichie Cosmetics. כל הזכויות שמורות.</p>
+                <p style="margin-top: 10px; font-size: 0.8rem;">עוצב באהבה עם ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal להצגת תמונות מוגדלות -->
+    <div class="image-modal" id="imageModal">
+        <span class="close-modal">&times;</span>
+        <img class="image-modal-content" id="modalImage" alt="תמונה מוגדלת">
+        <div class="image-modal-info" id="modalInfo"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
